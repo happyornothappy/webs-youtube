@@ -4,9 +4,9 @@ import Main from '../components/section/Main'
 const Today = () => {
   return (
     <Main 
-            title = "유튜브 비디오 영상"
-            description="유튜브 비디오 영상을 볼 수 있습니다.">
-            Video
+            title = "추천 영상"
+            description="오늘의 추천 유튜브 영상입니다.">
+            Today
         </Main>
 
   )
