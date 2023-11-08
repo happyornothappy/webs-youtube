@@ -5,6 +5,7 @@ import { useLocation } from 'react-router-dom'
 
 const Sns = () => {
     const location=useLocation();
+    
   return (
     <div className='header__sns'>
                 <ul>
