@@ -9,13 +9,15 @@
 .today__text {
     width: 60%;
     padding: 2rem;
+
     .today {
         background-color: #f00;
         padding: 2px 50px;
-        border: radius 20px;
+        border-radius: 20px;
         text-transform: uppercase;
         margin-bottom: 10px;
         display: inline-block;
+    
     }
     .title {
         font-size: 2rem;
@@ -46,7 +48,7 @@
 @media (max-width: 1700px){
     .today__inner {
         .today__thumb {
-            width: 100%;
+            width: 500px;
         }
         .today__text {
             width:calc(100% - 500px); 
@@ -61,7 +63,7 @@
     .today__inner {
         flex-direction: column;
         .today__thumb {
-            width: 500px;
+            width: 100%;
         }
         .today__text {
             width: 100%;
