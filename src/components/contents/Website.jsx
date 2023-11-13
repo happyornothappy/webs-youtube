@@ -1,6 +1,5 @@
 import React from 'react'
 
-import {websiteText} from '../../data/website';
 import { Link } from 'react-router-dom';
 
 const Website = () => {

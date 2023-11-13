@@ -1,5 +1,5 @@
 import React from 'react'
-import {webdText} from '../../data/webd';
+
 import { Link } from 'react-router-dom';
 
 
