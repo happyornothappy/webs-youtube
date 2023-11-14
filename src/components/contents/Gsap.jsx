@@ -1,6 +1,7 @@
 import React from 'react'
 
-import { Link } from 'react-router-dom';
+import { gsapText } from '../../data/gsap'
+import { Link } from 'react-router-dom'
 
 const Gsap = () => {
   return (
@@ -17,7 +18,6 @@ const Gsap = () => {
           </div>
         ))}
       </div>
-
     </section>
   )
 }

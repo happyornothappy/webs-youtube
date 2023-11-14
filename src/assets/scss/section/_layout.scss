@@ -1,36 +1,35 @@
 #header {
     position: fixed;
     left: 0;
-    top:0;
+    top: 0;
     width: 260px;
     height: 100%;
-    z-index: 1000;
     overflow-y: auto;
+    z-index: 10000;
     border-right: 1px solid var(--black100);
 }
 #main {
-    min-width: 2000px;
+    max-width: 2000px;
     min-height: 100vh;
     margin: 0 auto;
     padding-left: 260px;
 }
-
 #footer {
     text-align: center;
-    background-color: var(--black200);
+    background-color: var(--black100);
+    border-top: 1px solid (var--black100);
     padding: 20px;
     margin-left: 260px;
     width: calc(100% - 260px);
     color: var(--black400);
     font-size: 0.8rem;
-    border-top: 1px solid var(--black100);
 }
 
 @media (max-width: 800px){
     #header {
         left: -260px;
 
-        h1{
+        h1 {
             position: fixed;
             left: 0;
             top: 0;

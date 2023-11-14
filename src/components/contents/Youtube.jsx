@@ -1,5 +1,6 @@
 import React from 'react'
 
+import { youtubeText } from '../../data/youtube'
 import { Link } from 'react-router-dom'
 
 const Youtube = () => {

@@ -1,7 +1,7 @@
 import React from 'react'
 
+import { portfolioText } from '../../data/portfolio'
 import { Link } from 'react-router-dom'
-
 
 const Portfolio = () => {
   return (

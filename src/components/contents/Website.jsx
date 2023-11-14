@@ -1,13 +1,14 @@
 import React from 'react'
 
-import { Link } from 'react-router-dom';
+import { websiteText } from '../../data/website'
+import { Link } from 'react-router-dom'
 
 const Website = () => {
   return (
     <section id='website'>
       <h2>😛 웹표준 사이트 만들기 기초 다지기</h2>
       <div className="video__inner">
-        {websiteText.map((video,key) => (
+        {websiteText.map((video, key) => (
           <div className="video" key={key}>
             <div className="video__thumb play__icon">
               <Link to={`/video/${video.videoId}`}>
@@ -20,7 +21,5 @@ const Website = () => {
     </section>
   )
 }
-
- 
 
 export default Website
